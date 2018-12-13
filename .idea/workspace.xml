@@ -2,7 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="561e8aa3-14a8-4467-8645-e1bc95c4bb00" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/EnergiesCollectivesLogo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/IMG_20170121_122143.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/Initiative-nord-hautes-alpes_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/LogoEnergiesCollectives_COMPLET.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/LogoEnergiesCollectives_main.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/fleche_droite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/fleche_gauche.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/partenaires/arton110.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/partenaires/arton124.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/partenaires/arton82.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/partenaires/enercoop_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/partenaires/energie-partagee_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/partenaires/nef_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/partenaires/omnis_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/partenaires/paca_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/partenaires/parc-ecrins_logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/partenaires/syme05_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/partenaires/udess-05_logo-seul.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/picto_capital.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/picto_coop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/picto_photovoltaique.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/picto_production_energie.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/images/plus.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +45,13 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
+          <entry key="Image" value="3" />
+          <entry key="SVG" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="71" />
+          <entry key="HTML" value="1717" />
         </counts>
       </usages-collector>
     </session>
@@ -35,8 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="373">
+              <caret line="147" lean-forward="true" selection-start-line="147" selection-end-line="147" />
             </state>
           </provider>
         </entry>
@@ -74,9 +100,9 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="1076" />
+    <option name="width" value="1197" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -96,6 +122,48 @@
               <item name="fac_evaluation_finale" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="fac_evaluation_finale" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fac_evaluation_finale" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fac_evaluation_finale" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fac_evaluation_finale" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="partenaires" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fac_evaluation_finale" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fac_evaluation_finale" type="462c0819:PsiDirectoryNode" />
+              <item name="Evaluation_finale" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fac_evaluation_finale" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fac_evaluation_finale" type="462c0819:PsiDirectoryNode" />
+              <item name="Evaluation_finale" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fac_evaluation_finale" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fac_evaluation_finale" type="462c0819:PsiDirectoryNode" />
+              <item name="Evaluation_finale" type="462c0819:PsiDirectoryNode" />
+              <item name="logos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fac_evaluation_finale" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fac_evaluation_finale" type="462c0819:PsiDirectoryNode" />
+              <item name="Evaluation_finale" type="462c0819:PsiDirectoryNode" />
+              <item name="Photos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fac_evaluation_finale" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fac_evaluation_finale" type="462c0819:PsiDirectoryNode" />
+              <item name="Evaluation_finale" type="462c0819:PsiDirectoryNode" />
+              <item name="svg" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -109,6 +177,15 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.scopes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\HTML\fac_evaluation_finale\app\images\partenaires" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\HTML\fac_evaluation_finale\app\images" />
+      <recent name="E:\HTML\fac_evaluation_finale\Evaluation_finale\logos" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -132,26 +209,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544688672570</updated>
-      <workItem from="1544688673856" duration="241000" />
+      <workItem from="1544688673856" duration="2405000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="241000" />
+    <option name="totallyTimeSpent" value="2405000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="1197" height="1047" extended-state="0" />
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Gulp" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18336888" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29199648" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.33146068" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -173,10 +249,46 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Evaluation_finale/img/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation_finale/logos/EnergiesCollectives_rectangle_Logo_ajuste.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation_finale/logos/EnergiesCollectivesLogo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/EnergiesCollectivesLogo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation_finale/logos/LogoEnergiesCollectives_COMPLET.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation_finale/logos/LogoEnergiesCollectives_texte.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/picto_capital.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation_finale/svg/plus.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation_finale/svg/points.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Evaluation_finale/logos/plus.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/plus.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/fleche_droite.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="373">
+          <caret line="147" lean-forward="true" selection-start-line="147" selection-end-line="147" />
         </state>
       </provider>
     </entry>
