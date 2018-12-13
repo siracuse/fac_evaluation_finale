@@ -18,18 +18,6 @@
   src: url("../fonts/Lato/Lato-Regular.ttf");
 }
 
-.logo-header img {
-  width: 250px;
-}
-
-.menu {
-  display: none;
-}
-
-.bg-header {
-  width: 100%;
-}
-
 .logo-connaitre {
   text-align: center;
 }
@@ -201,6 +189,7 @@
   background-color: #e8ddca;
   font-family: "LatoRegular", Helvetica, Arial, sans-serif;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .temoignage .head-temoignage {
@@ -214,4 +203,51 @@
 
 .temoignage .img img {
   width: 100%;
+}
+
+footer {
+  background-color: #6d6f71;
+}
+
+footer img {
+  width: 30px;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  margin-left: 24px;
+}
+
+.text-footer {
+  text-align: center;
+  color: white;
+  font-family: "LatoRegular", Helvetica, Arial, sans-serif;
+  margin-top: 14px;
+}
+
+.partenaire {
+  margin-top: 40px;
+}
+
+@media all and (min-width: 992px) {
+  .content {
+    display: flex;
+  }
+  .fleche-g {
+    display: none;
+  }
+  .nosinstallation .bt {
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .partenaire {
+    width: 700px;
+    margin: 0 auto;
+  }
+  .grp-text {
+    display: flex;
+    justify-content: space-around;
+  }
 }

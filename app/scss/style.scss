@@ -190,6 +190,7 @@ $noir : rgb(0,0,0);
   background-color: $beige;
   font-family: "LatoRegular", Helvetica, Arial, sans-serif;
   margin-top: 20px;
+  margin-bottom: 20px;
   .head-temoignage {
     display: flex;
     justify-content: space-between;
@@ -200,5 +201,62 @@ $noir : rgb(0,0,0);
       width: 100%;
     }
   }
+}
+
+//FOOTER
+footer {
+  background-color: $gris;
+  img {
+    width: 30px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    margin-left: 24px;
+  }
+}
+.text-footer {
+  text-align: center;
+  color: $blanc;
+  font-family: "LatoRegular", Helvetica, Arial, sans-serif;
+  margin-top: 14px;
+}
+.partenaire {
+  margin-top: 40px;
+}
+
+
+
+@media all and (min-width: 992px) {
+
+
+
+
+
+
+  .content {
+    display: flex;
+  }
+  .fleche-g {
+    display: none;
+  }
+  .nosinstallation .bt {
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+
+
+
+  .partenaire {
+      width: 700px;
+      margin: 0 auto;
+    }
+    .grp-text {
+      display: flex;
+      justify-content: space-around;
+    }
 }
 
