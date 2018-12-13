@@ -135,6 +135,20 @@
   border-radius: 14px;
 }
 
+@media all and (min-width: 992px) {
+  .text-connaitre {
+    display: flex;
+  }
+  .text-connaitre h3 {
+    text-align: right;
+    margin-right: 20px;
+  }
+  .bt-gris {
+    width: fit-content;
+    margin: 0 auto;
+  }
+}
+
 .actu {
   color: white;
   background-color: #fcb731;
