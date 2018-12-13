@@ -1,6 +1,30 @@
+//RESET CSS
 * {
   margin: 0;
   padding: 0;
+}
+//couleur
+$marron : rgb(195, 165, 117);
+$beige : rgb(232, 221, 202);
+$orange : rgb(252, 183, 49);
+$bleu : rgb(0, 175, 236);
+$vert : rgb(179, 209, 67);
+$gris : rgb(109, 111, 113);
+$blanc : rgb(255, 255, 255);
+$noir : rgb(0,0,0);
+
+//FONT
+@font-face {
+  font-family: "Anton";
+  src: url('../fonts/Anton/Anton-Regular.ttf');
+}
+@font-face {
+  font-family: "LatoBlack";
+  src: url('../fonts/Lato/Lato-Black.ttf');
+}
+@font-face {
+  font-family: "LatoRegular";
+  src: url('../fonts/Lato/Lato-Regular.ttf');
 }
 
 
@@ -13,5 +37,168 @@
 }
 .bg-header {
   width: 100%;
+}
+
+//NOUS CONNAITRE
+.logo-connaitre {
+  text-align: center ;
+  img {
+    width: 150px;
+  }
+}
+.titre {
+  font-family: "Anton", Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: $orange;
+  font-size: 32px;
+  span {
+    font-size: 22px;
+  }
+}
+.picto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  .panneau {
+    transform: rotate(280deg);
+  }
+  h3 {
+    font-family: "LatoRegular", Helvetica, Arial, sans-serif;
+  }
+  div {
+    text-align: center;
+    width: 150px;
+  }
+  .chiffre {
+    font-size: 28px;
+  }
+  .coop {
+    color: $marron;
+  }
+  .photo {
+    color : $vert;
+  }
+  .prod {
+    color : $orange;
+  }
+  .cap {
+    color: $bleu;
+  }
+}
+
+.content-connaitre {
+  margin: 20px;
+  font-family: "LatoRegular", Helvetica, Arial, sans-serif;
+  color: $gris;
+  h3 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  ul {
+    margin: 20px;
+  }
+  .bt-gris {
+    text-align: center;
+    background-color: $gris;
+    color: $blanc;
+    margin-bottom: 50px;
+    border-radius: 14px;
+    h2 {
+      font-size: 20px;
+      padding: 5px;
+    }
+  }
+  p {
+    text-align: justify;
+  }
+  .bt-orange {
+    width: fit-content;
+    margin: 0 auto;
+    background-color: $orange;
+    color: $noir;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    height: 48px;
+    padding: 8px;
+    border-radius: 14px;
+  }
+}
+
+
+//ACTU
+.actu {
+  color : $blanc;
+  background-color: $orange;
+  font-family: "LatoRegular", Helvetica, Arial, sans-serif;
+  .head-actu {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.fleche-g {
+  margin-right: 10px;
+}
+.img {
+  width: 90%;
+  img {
+    width: 100%;
+  }
+}
+
+
+//DEMARCHE
+.notredemarche {
+  color : $gris;
+  background-color: $vert;
+  font-family: "LatoRegular", Helvetica, Arial, sans-serif;
+  margin-top: 20px;
+  .img {
+    width: 90%;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+//INSTALLATION
+.nosinstallation {
+  color : $gris;
+  font-family: "LatoRegular", Helvetica, Arial, sans-serif;
+  margin-top: 20px;
+  .img {
+    width: 90%;
+    img {
+      width: 100%;
+    }
+  }
+  .bt {
+    background-color: $gris;
+    color: $blanc;
+    padding: 8px;
+    text-align: center;
+    border-radius: 14px;
+    margin: 20px;
+  }
+}
+
+//TEMOIGNAGE
+.temoignage {
+  color : $gris;
+  background-color: $beige;
+  font-family: "LatoRegular", Helvetica, Arial, sans-serif;
+  margin-top: 20px;
+  .head-temoignage {
+    display: flex;
+    justify-content: space-between;
+  }
+  .img {
+    width: 90%;
+    img {
+      width: 100%;
+    }
+  }
 }
 
