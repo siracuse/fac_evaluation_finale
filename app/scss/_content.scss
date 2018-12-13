@@ -1,0 +1,91 @@
+//ACTU
+.actu {
+  color : $blanc;
+  background-color: $orange;
+  font-family: "LatoRegular", Helvetica, Arial, sans-serif;
+  .head-actu {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.fleche-g {
+  margin-right: 10px;
+}
+.img {
+  width: 90%;
+  img {
+    width: 100%;
+  }
+}
+
+
+//DEMARCHE
+.notredemarche {
+  color : $gris;
+  background-color: $vert;
+  font-family: "LatoRegular", Helvetica, Arial, sans-serif;
+  margin-top: 20px;
+  .img {
+    width: 90%;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+//INSTALLATION
+.nosinstallation {
+  color : $gris;
+  font-family: "LatoRegular", Helvetica, Arial, sans-serif;
+  margin-top: 20px;
+  .img {
+    width: 90%;
+    img {
+      width: 100%;
+    }
+  }
+  .bt {
+    background-color: $gris;
+    color: $blanc;
+    padding: 8px;
+    text-align: center;
+    border-radius: 14px;
+    margin: 20px;
+  }
+}
+
+//TEMOIGNAGE
+.temoignage {
+  color : $gris;
+  background-color: $beige;
+  font-family: "LatoRegular", Helvetica, Arial, sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  .head-temoignage {
+    display: flex;
+    justify-content: space-between;
+  }
+  .img {
+    width: 90%;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+
+
+@media all and (min-width: 992px) {
+
+  .content {
+    display: flex;
+  }
+  .fleche-g {
+    display: none;
+  }
+  .nosinstallation .bt {
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+}

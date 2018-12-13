@@ -1,0 +1,87 @@
+//NOUS CONNAITRE
+.logo-connaitre {
+  text-align: center ;
+  img {
+    width: 150px;
+  }
+}
+.titre {
+  font-family: "Anton", Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: $orange;
+  font-size: 32px;
+  span {
+    font-size: 22px;
+  }
+}
+.picto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  .panneau {
+    transform: rotate(280deg);
+  }
+  h3 {
+    font-family: "LatoRegular", Helvetica, Arial, sans-serif;
+  }
+  div {
+    text-align: center;
+    width: 150px;
+  }
+  .chiffre {
+    font-size: 28px;
+  }
+  .coop {
+    color: $marron;
+  }
+  .photo {
+    color : $vert;
+  }
+  .prod {
+    color : $orange;
+  }
+  .cap {
+    color: $bleu;
+  }
+}
+
+.content-connaitre {
+  margin: 20px;
+  font-family: "LatoRegular", Helvetica, Arial, sans-serif;
+  color: $gris;
+  h3 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  ul {
+    margin: 20px;
+  }
+  .bt-gris {
+    text-align: center;
+    background-color: $gris;
+    color: $blanc;
+    margin-bottom: 50px;
+    border-radius: 14px;
+    h2 {
+      font-size: 20px;
+      padding: 5px;
+    }
+  }
+  p {
+    text-align: justify;
+  }
+  .bt-orange {
+    width: fit-content;
+    margin: 0 auto;
+    background-color: $orange;
+    color: $noir;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    height: 48px;
+    padding: 8px;
+    border-radius: 14px;
+  }
+}
