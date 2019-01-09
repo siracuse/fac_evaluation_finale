@@ -1,91 +1,53 @@
-//ACTU
+.actu, .notredemarche, .nosinstallation, .temoignage {
+  font-family: $LatoRegular;
+  display: flex;
+  img {
+    max-width: 90%;
+    height: auto;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  p {
+    width: 100%;
+  }
+  .content {
+    margin-top: 40px;
+  }
+}
+
+.notredemarche, .nosinstallation, .temoignage {
+  color : $gris;
+  margin-top: 20px;
+}
+
+.actu-box, .demarche-box, .installation-box, .temoignage-box {
+  width: 90%;
+  margin: 0 auto;
+}
+
 .actu {
   color : $blanc;
   background-color: $orange;
-  font-family: "LatoRegular", Helvetica, Arial, sans-serif;
-  .head-actu {
-    display: flex;
-    justify-content: space-between;
-  }
-}
-.fleche-g {
-  margin-right: 10px;
-}
-.img {
-  width: 90%;
-  img {
-    width: 100%;
-  }
 }
 
-
-//DEMARCHE
 .notredemarche {
-  color : $gris;
   background-color: $vert;
-  font-family: "LatoRegular", Helvetica, Arial, sans-serif;
-  margin-top: 20px;
-  .img {
-    width: 90%;
-    img {
-      width: 100%;
-    }
-  }
 }
 
-//INSTALLATION
-.nosinstallation {
-  color : $gris;
-  font-family: "LatoRegular", Helvetica, Arial, sans-serif;
-  margin-top: 20px;
-  .img {
-    width: 90%;
-    img {
-      width: 100%;
-    }
-  }
-  .bt {
-    background-color: $gris;
-    color: $blanc;
-    padding: 8px;
-    text-align: center;
-    border-radius: 14px;
-    margin: 20px;
-  }
-}
-
-//TEMOIGNAGE
 .temoignage {
-  color : $gris;
   background-color: $beige;
-  font-family: "LatoRegular", Helvetica, Arial, sans-serif;
-  margin-top: 20px;
   margin-bottom: 20px;
-  .head-temoignage {
-    display: flex;
-    justify-content: space-between;
-  }
-  .img {
-    width: 90%;
-    img {
-      width: 100%;
-    }
-  }
 }
 
-
-
-@media all and (min-width: 992px) {
-
-  .content {
-    display: flex;
-  }
-  .fleche-g {
-    display: none;
-  }
-  .nosinstallation .bt {
-    width: fit-content;
-    margin: 0 auto;
-    margin-top: 20px;
+.bt {
+  background-color: $gris;
+  padding: 8px;
+  text-align: center;
+  border-radius: 14px;
+  margin: 20px auto;
+  width: 360px;
+  a {
+    color: $blanc;
+    font-size: 24px;
   }
 }

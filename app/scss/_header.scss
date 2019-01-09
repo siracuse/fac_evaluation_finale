@@ -1,10 +1,16 @@
-//HEADER
 .logo-header img {
   width: 250px;
 }
-.menu {
-  display: none;
-}
 .bg-header {
   width: 100%;
+}
+#myLinks {
+  display: none;
+  flex-direction: column;
+  background-color: $vert;
+  a {
+    color: $noir;
+    margin: 10px 20px 10px 0;
+    font-weight: bold;
+  }
 }

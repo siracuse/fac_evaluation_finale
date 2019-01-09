@@ -1,36 +1,9 @@
-//RESET CSS
-* {
-  margin: 0;
-  padding: 0;
-}
-//couleur
-$marron : rgb(195, 165, 117);
-$beige : rgb(232, 221, 202);
-$orange : rgb(252, 183, 49);
-$bleu : rgb(0, 175, 236);
-$vert : rgb(179, 209, 67);
-$gris : rgb(109, 111, 113);
-$blanc : rgb(255, 255, 255);
-$noir : rgb(0,0,0);
-
-//FONT
-@font-face {
-  font-family: "Anton";
-  src: url('../fonts/Anton/Anton-Regular.ttf');
-}
-@font-face {
-  font-family: "LatoBlack";
-  src: url('../fonts/Lato/Lato-Black.ttf');
-}
-@font-face {
-  font-family: "LatoRegular";
-  src: url('../fonts/Lato/Lato-Regular.ttf');
-}
-
+@import 'reset';
+@import 'variable';
 
 @import 'header';
 @import 'nousconnaitre';
 @import 'content';
 @import 'footer';
 
-
+@import 'BP-992';

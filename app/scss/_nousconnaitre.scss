@@ -1,4 +1,3 @@
-//NOUS CONNAITRE
 .logo-connaitre {
   text-align: center ;
   img {
@@ -6,7 +5,7 @@
   }
 }
 .titre {
-  font-family: "Anton", Helvetica, Arial, sans-serif;
+  font-family: $Anton;
   text-align: center;
   color: $orange;
   font-size: 32px;
@@ -24,7 +23,7 @@
     transform: rotate(280deg);
   }
   h3 {
-    font-family: "LatoRegular", Helvetica, Arial, sans-serif;
+    font-family: $LatoRegular;
   }
   div {
     text-align: center;
@@ -49,12 +48,10 @@
 
 .content-connaitre {
   margin: 20px;
-  font-family: "LatoRegular", Helvetica, Arial, sans-serif;
+  font-family: $LatoRegular;
   color: $gris;
   h3 {
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 20px;
   }
   ul {
     margin: 20px;
@@ -85,20 +82,8 @@
     border-radius: 14px;
   }
 }
-
-
-@media all and (min-width: 992px) {
-
-  .text-connaitre {
-    display: flex;
-    h3 {
-      text-align: right;
-      margin-right: 20px;
-    }
+.text-connaitre {
+  div, h3{
+    width: 100%;
   }
-  .bt-gris {
-    width: fit-content;
-    margin: 0 auto;
-  }
-
 }

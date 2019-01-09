@@ -1,37 +1,28 @@
-//FOOTER
 footer {
   background-color: $gris;
+  padding-bottom: 50px;
   img {
     width: 30px;
+    //Filtre noir et blanc
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
     -ms-filter: grayscale(100%);
     -o-filter: grayscale(100%);
-    margin-left: 24px;
+    margin-right: 23px;
   }
 }
 .text-footer {
   text-align: center;
   color: $blanc;
-  font-family: "LatoRegular", Helvetica, Arial, sans-serif;
+  font-family: $LatoRegular;
   margin-top: 14px;
+  margin-bottom: 20px;
+  input {
+    width: 300px;
+  }
 }
 .partenaire {
   margin-top: 40px;
-}
-
-
-
-
-@media all and (min-width: 992px) {
-
-  .partenaire {
-    width: 700px;
-    margin: 0 auto;
-  }
-  .grp-text {
-    display: flex;
-    justify-content: space-around;
-  }
+  color: $blanc;
 }

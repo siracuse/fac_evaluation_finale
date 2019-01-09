@@ -1,0 +1,56 @@
+@media all and (min-width: 992px) {
+  ////HEADER
+  .topnav {
+    width: fit-content;
+    margin: 0 auto;
+    #myLinks {
+      display: flex;
+      flex-direction: row;
+    }
+    .icon {
+      display: none;
+    }
+  }
+
+  ////NOUS CONNAITRE
+  .text-connaitre {
+    display: flex;
+    h3 {
+      text-align: right;
+      margin-right: 20px;
+    }
+    div, h3 {
+      width: 50%;
+    }
+  }
+  .bt-gris {
+    width: fit-content;
+    margin: 0 auto;
+  }
+  .nousconnaitre {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  ////CONTENT
+  .actu-box, .temoignage-box, .demarche-box, .installation-box {
+    margin: 0 auto;
+    display: flex;
+    .content {
+      display: flex;
+    }
+  }
+  .actu, .notredemarche, .nosinstallation, .temoignage {
+    img {
+      width: 1800px;
+    }
+  }
+  ////FOOTER
+  .partenaire {
+    width: 700px;
+    margin: 0 auto;
+  }
+  .grp-text {
+    display: flex;
+    justify-content: space-around;
+  }
+}
