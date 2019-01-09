@@ -9,6 +9,7 @@
       <change beforePath="$PROJECT_DIR$/app/scss/_BP-992.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_BP-992.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/_content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_content.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/_nousconnaitre.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_nousconnaitre.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +55,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PHP" value="312" />
-          <entry key="SCSS" value="811" />
+          <entry key="SCSS" value="852" />
           <entry key="SVG" value="2" />
         </counts>
       </usages-collector>
@@ -64,7 +65,7 @@
           <entry key="Image" value="3" />
           <entry key="JavaScript" value="1" />
           <entry key="PHP" value="2" />
-          <entry key="SCSS" value="65" />
+          <entry key="SCSS" value="66" />
           <entry key="SVG" value="18" />
         </counts>
       </usages-collector>
@@ -72,20 +73,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/index.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scss/_content.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="184" column="30" selection-start-line="184" selection-start-column="30" selection-end-line="184" selection-end-column="30" />
+            <state relative-caret-position="480">
+              <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scss/_content.scss">
+        <entry file="file://$PROJECT_DIR$/app/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+            <state relative-caret-position="191">
+              <caret line="54" column="22" lean-forward="true" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/scss/_nousconnaitre.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="58">
+              <caret line="54" column="50" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -120,7 +130,6 @@
         <option value="$PROJECT_DIR$/app/scss/_menuBurger.scss" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/scss/_font.scss" />
-        <option value="$PROJECT_DIR$/app/scss/_nousconnaitre.scss" />
         <option value="$PROJECT_DIR$/app/scss/style.scss" />
         <option value="$PROJECT_DIR$/app/images/plus.svg" />
         <option value="$PROJECT_DIR$/app/images/plus-sign-in-circle.svg" />
@@ -131,6 +140,7 @@
         <option value="$PROJECT_DIR$/app/scss/_footer.scss" />
         <option value="$PROJECT_DIR$/app/index.php" />
         <option value="$PROJECT_DIR$/app/scss/_content.scss" />
+        <option value="$PROJECT_DIR$/app/scss/_nousconnaitre.scss" />
       </list>
     </option>
   </component>
@@ -246,16 +256,15 @@
       <workItem from="1544688673856" duration="10983000" />
       <workItem from="1544774515986" duration="600000" />
       <workItem from="1547037291958" duration="5509000" />
-      <workItem from="1547042935268" duration="6998000" />
+      <workItem from="1547042935268" duration="7263000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24090000" />
+    <option name="totallyTimeSpent" value="24355000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18923241" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -273,7 +282,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.08120134" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.756396" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -396,13 +405,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scss/_nousconnaitre.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="58" column="12" lean-forward="true" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scss/_variable.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -446,17 +448,24 @@
     <entry file="file://$PROJECT_DIR$/app/images/schema_souscrire.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scss/_content.scss">
+    <entry file="file://$PROJECT_DIR$/app/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="191">
+          <caret line="54" column="22" lean-forward="true" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.php">
+    <entry file="file://$PROJECT_DIR$/app/scss/_content.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="184" column="30" selection-start-line="184" selection-start-column="30" selection-end-line="184" selection-end-column="30" />
+        <state relative-caret-position="480">
+          <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/_nousconnaitre.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="54" column="50" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
         </state>
       </provider>
     </entry>
