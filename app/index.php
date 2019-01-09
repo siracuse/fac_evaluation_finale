@@ -13,7 +13,6 @@
     <header>
         <div class="logo-header">
             <img src="images/EnergiesCollectives_rectangle_Logo_ajuste.svg">
-
         </div>
 
 <!--    MENU BURGER      -->
@@ -24,7 +23,6 @@
                     <a href="#nousconnaitre">Nous connaître</a>
                     <a href="#nosinstallation">Nos installations</a>
                     <a href="#economisons">Economisons</a>
-                    <a href="#nosinstallation">Nos installations</a>
                     <a href="#ensavoirplus">En savoir plus</a>
                     <a href="#souscrire">Souscrire</a>
                 </div>
@@ -34,8 +32,8 @@
             </div>
         </div>
 
-        <img class="bg-header" src="images/20161202_101925.jpg">
     </header>
+    <img class="bg-header" src="images/20161202_101925.jpg">
 
     <main>
         <section class="nousconnaitre">

@@ -1,16 +1,21 @@
-.logo-header img {
-  width: 250px;
+header {
+  display: flex;
+  justify-content: center;
+  .logo-header img {
+    width: 250px;
+    margin-right: 20px;
+  }
+  #myLinks {
+    display: none;
+    flex-direction: column;
+    background-color: $vert;
+    a {
+      color: $noir;
+      margin: 10px 20px 10px 20px;
+      font-family: $Anton;
+    }
+  }
 }
 .bg-header {
   width: 100%;
-}
-#myLinks {
-  display: none;
-  flex-direction: column;
-  background-color: $vert;
-  a {
-    color: $noir;
-    margin: 10px 20px 10px 0;
-    font-weight: bold;
-  }
 }

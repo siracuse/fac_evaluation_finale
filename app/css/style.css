@@ -351,24 +351,30 @@ template {
   src: url("../fonts/Lato/Lato-Regular.ttf");
 }
 
-.logo-header img {
+header {
+  display: flex;
+  justify-content: center;
+}
+
+header .logo-header img {
   width: 250px;
+  margin-right: 20px;
 }
 
-.bg-header {
-  width: 100%;
-}
-
-#myLinks {
+header #myLinks {
   display: none;
   flex-direction: column;
   background-color: #b3d143;
 }
 
-#myLinks a {
+header #myLinks a {
   color: black;
-  margin: 10px 20px 10px 0;
-  font-weight: bold;
+  margin: 10px 20px 10px 20px;
+  font-family: "Anton", Helvetica, Arial, sans-serif;
+}
+
+.bg-header {
+  width: 100%;
 }
 
 .logo-connaitre {
@@ -575,8 +581,9 @@ footer img {
 }
 
 .partenaire {
-  margin-top: 40px;
   color: white;
+  width: fit-content;
+  margin: 40px auto 0 auto;
 }
 
 @media all and (min-width: 992px) {
