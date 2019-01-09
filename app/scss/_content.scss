@@ -12,7 +12,17 @@
   }
   .content {
     margin-top: 40px;
+    .svg {
+      text-align: right;
+      svg {
+        width: 30px;
+        height: 30px;
+      }
+    }
   }
+}
+.nosinstallation {
+  background-image: url("../images/points.svg");
 }
 
 .notredemarche, .nosinstallation, .temoignage {

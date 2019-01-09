@@ -35,13 +35,9 @@
   .actu-box, .temoignage-box, .demarche-box, .installation-box {
     margin: 0 auto;
     display: flex;
+    width: 60%;
     .content {
       display: flex;
-    }
-  }
-  .actu, .notredemarche, .nosinstallation, .temoignage {
-    img {
-      width: 1800px;
     }
   }
   ////FOOTER

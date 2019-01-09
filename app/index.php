@@ -11,7 +11,6 @@
 </head>
 <body>
     <header>
-
         <div class="logo-header">
             <img src="images/EnergiesCollectives_rectangle_Logo_ajuste.svg">
 
@@ -67,7 +66,12 @@
                 </div>
 
                 <div class="bt-gris">
-                    <h2>Comprendre notre modèle de production</h2>
+                    <h2>
+                        Comprendre notre modèle de production
+                        <svg class="IconSVG">
+                            <use xlink:href="#schema_souscrire"></use>
+                        </svg>
+                    </h2>
                 </div>
 
                 <div class="text-connaitre">
@@ -93,11 +97,16 @@
                 <div class="head-actu">
                     <h2>ACTUALITÉS</h2>
                     <div>
-                        <img src="images/IMG_20170121_122143.jpg" class="actu-img">
+                        <img src="images/IMG_20170121_122143.jpg">
                     </div>
                 </div>
                 <div class="content">
                     <div>
+                        <div class="svg">
+                            <svg class="IconSVG">
+                                <use xlink:href="#fleche_droite"></use>
+                            </svg>
+                        </div>
                         <h2>Un 24 novembre de célébration</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -115,7 +124,7 @@
                 <div class="head-demarche">
                     <h2>NOTRE DEMARCHE</h2>
                     <div>
-                        <img src="images/IMG_20170121_122143.jpg" class="actu-img">
+                        <img src="images/IMG_20170121_122143.jpg">
                     </div>
 
                 </div>
@@ -138,7 +147,7 @@
                 <div class="head-installation">
                     <h2>NOS INSTALLATIONS</h2>
                     <div>
-                        <img src="images/IMG_20170121_122143.jpg" class="actu-img">
+                        <img src="images/IMG_20170121_122143.jpg">
                     </div>
                 </div>
                 <div class="content">
@@ -164,11 +173,16 @@
                 <div class="head-temoignage">
                     <h2>TEMOIGNAGES</h2>
                     <div>
-                        <img src="images/IMG_20170121_122143.jpg" class="actu-img">
+                        <img src="images/IMG_20170121_122143.jpg">
                     </div>
                 </div>
                 <div class="content">
                     <div>
+                        <div class="svg">
+                            <svg class="IconSVG">
+                                <use xlink:href="#fleche_droite"></use>
+                            </svg>
+                        </div>
                         <h2>Un 24 novembre de célébration</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -187,18 +201,37 @@
     <footer>
         <div class="grp-text">
             <div class="text-footer">
-                <h2>Nous suivre</h2>
+                <h2>
+                    Nous suivre
+                    <svg class="IconSVG">
+                        <use xlink:href="#schema_souscrire"></use>
+                    </svg>
+                </h2>
+
             </div>
             <div class="text-footer">
-                <h2>Nous contacter</h2>
+                <h2>
+                    Nous contacter
+                    <svg class="IconSVG">
+                        <use xlink:href="#schema_souscrire"></use>
+                    </svg>
+                </h2>
             </div>
             <div class="text-footer">
-                <h2>Rechercher</h2>
+                <h2>
+                    Rechercher
+                    <svg class="IconSVG">
+                        <use xlink:href="#schema_souscrire"></use>
+                    </svg>
+                </h2>
             </div>
         </div>
         <div class="text-footer">
             <h2>Abonnez-vous à la Newsletter</h2>
             <input type="text">
+            <svg class="IconSVG">
+                <use xlink:href="#schema_souscrire"></use>
+            </svg>
         </div>
         <div class="partenaire">
             <span>Nos partenaires :</span>
@@ -214,6 +247,7 @@
             <img src="images/partenaires/udess-05_logo-seul.png">
         </div>
     </footer>
+<!--    JS MENU BURGER  -->
     <script>
         function myFunction() {
             var x = document.getElementById("myLinks");

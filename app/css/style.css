@@ -439,6 +439,7 @@ template {
 
 .content-connaitre h3 {
   text-align: center;
+  background-image: url("../images/points.svg");
 }
 
 .content-connaitre ul {
@@ -498,6 +499,19 @@ template {
   margin-top: 40px;
 }
 
+.actu .content .svg, .notredemarche .content .svg, .nosinstallation .content .svg, .temoignage .content .svg {
+  text-align: right;
+}
+
+.actu .content .svg svg, .notredemarche .content .svg svg, .nosinstallation .content .svg svg, .temoignage .content .svg svg {
+  width: 30px;
+  height: 30px;
+}
+
+.nosinstallation {
+  background-image: url("../images/points.svg");
+}
+
 .notredemarche, .nosinstallation, .temoignage {
   color: #6d6f71;
   margin-top: 20px;
@@ -543,12 +557,9 @@ footer {
 
 footer img {
   width: 30px;
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -o-filter: grayscale(100%);
   margin-right: 23px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 .text-footer {
@@ -601,12 +612,10 @@ footer img {
   .actu-box, .temoignage-box, .demarche-box, .installation-box {
     margin: 0 auto;
     display: flex;
+    width: 60%;
   }
   .actu-box .content, .temoignage-box .content, .demarche-box .content, .installation-box .content {
     display: flex;
-  }
-  .actu img, .notredemarche img, .nosinstallation img, .temoignage img {
-    width: 1800px;
   }
   .partenaire {
     width: 700px;

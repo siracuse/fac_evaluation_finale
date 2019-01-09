@@ -3,13 +3,10 @@ footer {
   padding-bottom: 50px;
   img {
     width: 30px;
-    //Filtre noir et blanc
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    -ms-filter: grayscale(100%);
-    -o-filter: grayscale(100%);
     margin-right: 23px;
+    //Filtre noir et blanc
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
   }
 }
 .text-footer {
